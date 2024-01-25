@@ -7,9 +7,9 @@ function App(){
 return(
     <div id="container">
         <div id="navbar">
-        <Link to="/About">About me</Link>
+      
         </div>
-    <div>Welcome!</div>
+    <div>Welcome!!</div>
         <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/About" element={<About/>} />
