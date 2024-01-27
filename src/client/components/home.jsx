@@ -5,7 +5,9 @@ function Home(){
     
 return(
     <div className='home-container'>
-        Hi my name is ...
+        Hi my name is ...Kendra Morris.
+        I am a fullstack developer based in Frisco, Texas.
+       
        
     
     </div>
