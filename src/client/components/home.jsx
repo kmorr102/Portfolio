@@ -1,12 +1,13 @@
 import React from 'react';
+import { Routes,Route,Link,useNavigate } from "react-router-dom";
+
 function Home(){
     
 return(
-    <div>
-        <div className='header'> Kendra Morris </div>
-        <div className='title'>Fullstack Engineer</div>
+    <div className='home-container'>
+        Hi my name is ...
        
-    <div className='sidebar'>testing sidebar</div>
+    
     </div>
 )
 }
