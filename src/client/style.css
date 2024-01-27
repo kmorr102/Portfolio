@@ -1,41 +1,71 @@
 
 :root {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center;
+  justify-content: center; */
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   height: 100vh;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #535bf2;
-  border:black solid 4px;
+  background-color: white;
+ 
 
  
 }
 #container{
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
+  align-items: stretch;
   border:white solid;
 }
 #navbar{
   display: flex;
   flex-direction: row;
-  margin-top: 290px;
+  justify-content: space-around;
+  background-color: #646cff;
+  padding: 5px;
+  margin-top: 20px;
 }
-#sidebar{
+#bottombar{
   display: flex;
-  flex-direction: column-reverse;
-  background-color: orange;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #646cff;
+  padding: 5px;
+  margin-top: 20px;
+}
+#homebar{
+  display: inline-flex;
+}
+.homelink{
+  color: #1a1a1a;
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 200;
+  padding: 0 5px;
+  background:linear-gradient(
+  to bottom,
+  transparent 65%, #b7ff64 50%);
+}
+
+.home-container{
+padding: 100px;
   
- 
+}
+
+
+.link{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  font-weight: 200;
+  color:white;
+  text-decoration: inherit;
+  font-size: 20px;
 }
 a {
   display: flex;
   flex-direction: row;
-  align-content: space-around;
+  padding: 20px;
   font-weight: 500;
   color: #53f85b;;
   text-decoration: inherit;
@@ -45,32 +75,29 @@ a {
 a:hover {
   color: white;
 }
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+.link:hover{
+  color:black;
 }
-
+ body {
+  margin: 2;
+}
+/* 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
   color: #94ec0e;
-}
-.title{
+} */
+/* .title{
   font-size: 3.2em;
   line-height: 1.1;
   color: #94ec0e;
-}
-.header{
+} */
+/* .header{
   font-size: 3.0em;
   font-weight: 200;
   line-height: 1.1;
   color: #94ec0e;
-}
-
+} */
 
 .card {
   padding: 2em;

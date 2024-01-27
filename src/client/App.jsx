@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes,Route,Link } from "react-router-dom";
+import { Routes,Route,Link,useNavigate } from "react-router-dom";
 import Home from './components/home';
 import About from './components/about';
 import Contact from './components/contact';
@@ -8,16 +8,23 @@ import Work from './components/work';
 
 
 function App(){
+    const navigate= useNavigate()
 return(
+    
     <div id="container">
+        <div id='homebar'>
+        <Link className='homelink' to="/"> Kendra Morris </Link>  
+        </div>  
+       
         <div id="navbar">
-            <Link to="/">Home</Link>
-            <Link to="/About">About Me</Link>
-            <Link to="/Work">My Work</Link>
-            <Link to="/Resume">Resume</Link>
-            <Link to="/Contact">Contact Me</Link>
+            <Link className='link' to="/">Home</Link>
+            <Link className='link' to="/About">About Me</Link>
+            <Link className='link' to="/Work">My Work</Link>
+            <Link className='link' to="/Resume">Resume</Link>
+            <Link className='link' to="/Contact">Contact Me</Link>
       
         </div>
+       
     
         <Routes>
             <Route path="/" element={<Home/>} />
@@ -27,6 +34,7 @@ return(
             <Route path="/Resume" element={<Resume/>}/>
 
         </Routes>
+        <div id='bottombar'>Contact me:</div>
     </div>
 )
 }
