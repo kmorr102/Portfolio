@@ -1,28 +1,49 @@
+
 :root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  height: 100vh;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-  border: #535bf2 solid;
+  background-color: #535bf2;
+  border:black solid 4px;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ 
 }
 #container{
-  border: red solid;
+  display: flex;
+  flex-direction: column-reverse;
+  border:white solid;
+}
+#navbar{
+  display: flex;
+  flex-direction: row;
+  margin-top: 290px;
+}
+#sidebar{
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: orange;
+  
+ 
 }
 a {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
   font-weight: 500;
-  color: #646cff;
+  color: #53f85b;;
   text-decoration: inherit;
+  font-size: 20px;
+
 }
 a:hover {
-  color: #535bf2;
+  color: white;
 }
 
 body {
@@ -36,29 +57,23 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: #94ec0e;
+}
+.title{
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #94ec0e;
+}
+.header{
+  font-size: 3.0em;
+  font-weight: 200;
+  line-height: 1.1;
+  color: #94ec0e;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
-}
 
 .card {
   padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
 
 button {
