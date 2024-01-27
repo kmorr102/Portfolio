@@ -24,6 +24,8 @@ return(
             <Link className='link' to="/Contact">Contact Me</Link>
       
         </div>
+
+        <div id='topbar'></div>
        
     
         <Routes>
@@ -34,7 +36,7 @@ return(
             <Route path="/Resume" element={<Resume/>}/>
 
         </Routes>
-        <div id='bottombar'>Contact me:</div>
+       <div id='bottombar'></div>
     </div>
 )
 }

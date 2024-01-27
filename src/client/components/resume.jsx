@@ -1,12 +1,15 @@
 import React from 'react';
+import { Worker, Viewer } from '@react-pdf-viewer/pdfjs';
+import '@react-pdf-viewer/core/lib/styles/index.css';
+import '@react-pdf-viewer/default-layout/lib/styles/index.css';
+
 function Resume(){
-    
-return(
+    const resumeUrl= ''
+    return(
     <div>
-        <div className='header'> Kendra Morris </div>
-        <div className='Title'>Resume</div>
-       
+    
     </div>
-)
+    )
+
 }
 export default Resume;
