@@ -134,8 +134,8 @@ font-size: 40px;
   padding: 50px;
 }
 .resume{
-  padding: 50px;
-  margin: 50px;
+ display: flex;
+  margin: 10px;
 }
 .link{
   display: flex;
