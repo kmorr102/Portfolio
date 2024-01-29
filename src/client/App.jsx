@@ -13,16 +13,16 @@ function App(){
 return(
     
     <div id="container">
-        <div id='homebar'>
+        {/* <div id='homebar'>
         <Link className='homelink' to="/"> Kendra Morris </Link>  
-        </div>  
+        </div>   */}
        
         <div id="navbar">
             <Link className='link' to="/">Home</Link>
             {/* <Link className='link' to="/About">About Me</Link> */}
             <Link className='link' to="/Work">My Work</Link>
             <Link className='link' to="/Resume">Resume</Link>
-            <Link className='link' to="/Contact">Contact Me</Link>
+            {/* <Link className='link' to="/Contact">Contact Me</Link> */}
       
         </div>
 
