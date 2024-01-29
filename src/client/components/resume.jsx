@@ -1,4 +1,5 @@
 import React from 'react';
+import myResume from '/src/client/assets/resume-2024.pdf'
 
 
 function Resume(){
@@ -6,7 +7,7 @@ function Resume(){
     return(
     <div>
         <iframe className='resume'
-         src={resumeUrl}
+         src={myResume}
          style={{ width: '100%', height: '500px', border: 'none' }}
          >
         </iframe>
