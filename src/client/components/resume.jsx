@@ -1,12 +1,15 @@
 import React from 'react';
-import { Worker, Viewer } from '@react-pdf-viewer/pdfjs';
-import '@react-pdf-viewer/core/lib/styles/index.css';
-import '@react-pdf-viewer/default-layout/lib/styles/index.css';
+
 
 function Resume(){
-    const resumeUrl= ''
+    const resumeUrl= '/src/client/assets/resume-2024.pdf'
     return(
     <div>
+        <iframe
+         src={resumeUrl}
+         style={{ width: '100%', height: '500px', border: 'none' }}
+         >
+        </iframe>
     
     </div>
     )
