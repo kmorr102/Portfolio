@@ -18,7 +18,7 @@ return(
        
         <div id="navbar">
             <Link className='link' to="/">Home</Link>
-            <Link className='link' to="/About">About Me</Link>
+            {/* <Link className='link' to="/About">About Me</Link> */}
             <Link className='link' to="/Work">My Work</Link>
             <Link className='link' to="/Resume">Resume</Link>
             <Link className='link' to="/Contact">Contact Me</Link>
