@@ -9,7 +9,9 @@ function Resume(){
         <iframe className='resume'
          src={myResume}
          style={{ frameBorder:'0', width: '100%', height: '1000px', border: 'none' }}
-         >
+        allowFullScreen
+        >
+        
         </iframe>
     
     </div>
