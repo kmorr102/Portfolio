@@ -140,8 +140,8 @@ font-size: 40px;
   padding: 50px;
 }
 .resume{
- display: flex;
-  margin: 10px;
+  padding: 50px;
+  margin: 50px;
 }
 .link{
   display: flex;
