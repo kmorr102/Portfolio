@@ -8,8 +8,11 @@ function Resume(){
     <div>
         <iframe className='resume'
          src={myResume}
-         style={{ width: '100%', height: '500px', border: 'none' }}
-         >
+
+         style={{ frameBorder:'0', width: '100%', height: '1000px', border: 'none' }}
+        allowFullScreen
+        >
+  
         </iframe>
     
     </div>
