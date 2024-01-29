@@ -21,11 +21,13 @@ function Work(){
 return(
     <div className='projects'>
         {/* <div className='header'> Kendra Morris </div> */}
-        <img className='girlDinner' src={girlDinner} alt='girl dinner tech project' style={{width:'365px', height: '260px', border: 'black solid 3px'}}/>
+        <img className='girlDinner' src={girlDinner} alt='girl dinner tech project' 
+        style={{width:'365px', height: '260px', border: 'white solid 3px'}}/>
         
         <button onClick={navigateToGirlDinnerVideo}>Demo</button>  <button onClick={navigateToGirlDinner}>Github</button>
        
-        <img className='strangersThings' src={strangersThings} alt='strangers things tech project' style={{width:'365px', height: '260px', border: 'black solid 3px'}}/>
+        <img className='strangersThings' src={strangersThings} alt='strangers things tech project' 
+        style={{width:'365px', height: '260px', border: 'white solid 3px'}}/>
        
         <button onClick={navigateToStrangersThingsDemo}>Demo</button> <button onClick={navigateToStrangersThingsGithub}>Github</button>
     </div>
