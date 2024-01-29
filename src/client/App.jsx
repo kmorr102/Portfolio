@@ -21,7 +21,7 @@ return(
             <Link className='link' to="/">Home</Link>
             {/* <Link className='link' to="/About">About Me</Link> */}
             <Link className='link' to="/Work">My Work</Link>
-            <Link className='link' to="/Resume">Resume</Link>
+            <Link className='link' to="/Resume/pdf">Resume</Link>
             {/* <Link className='link' to="/Contact">Contact Me</Link> */}
       
         </div>
@@ -34,7 +34,7 @@ return(
             <Route path="/About" element={<About/>} />
             <Route path="/Contact" element={<Contact/>}/>
             <Route path="/Work" element={<Work/>}/>
-            <Route path="/Resume" element={<Resume/>}/>
+            <Route path="/Resume/pdf" element={<Resume/>}/>
             <Route path="/Video" element={<Video/>}/>
 
         </Routes>
