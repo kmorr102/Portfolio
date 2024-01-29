@@ -64,6 +64,9 @@ background-color: #646cff;
 .girlDinner, .strangersThings{
   margin: 20px;
 }
+.video{
+  padding: 50px;
+}
 .resume{
   padding: 50px;
   margin: 50px;

@@ -5,6 +5,7 @@ import About from './components/about';
 import Contact from './components/contact';
 import Resume from './components/resume';
 import Work from './components/work';
+import Video from './components/Video';
 
 
 function App(){
@@ -34,6 +35,7 @@ return(
             <Route path="/Contact" element={<Contact/>}/>
             <Route path="/Work" element={<Work/>}/>
             <Route path="/Resume" element={<Resume/>}/>
+            <Route path="/Video" element={<Video/>}/>
 
         </Routes>
        <div id='bottombar'></div>
