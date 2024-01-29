@@ -63,28 +63,31 @@ font-size: 40px;
   display: flex;
   color: black;
   font-size: 70px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color:white;
+  font-family: 'Rubik Doodle Shadow', system-ui;
+  background-color:skyblue;
+  border: white solid 4px;
   clip-path: polygon(20% 6%, 150% 4%, 170% 130%, 9% 150%);
   font-weight: 200;
 
 }
 .e{
   display: flex;
-  color: black;
+  color:whitesmoke;
   font-size: 70px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: cursive;
   background-color: #ff7875;
+  border: white solid 3px;
   clip-path: polygon(20% 0%, 150% 20%, 170% 130%, 0% 150%);
   font-weight: 200;
   margin-bottom: 39px;
 }
 .n{
   display: flex;
-  color: white;
+  color: sandybrown;
   font-size: 70px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: unset;
   background-color:mediumvioletred;
+  border: white solid 3px;
   clip-path: polygon(6% 25%, 145% 37%, 183% 134%, 25% 170%);
   font-weight: 200;
 }
@@ -92,17 +95,19 @@ font-size: 40px;
   display: flex;
   color: wheat;
   font-size: 70px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color:midnightblue;
+  border: white solid 2px;
   clip-path: polygon(20% 0%, 150% 20%, 170% 130%, 0% 150%);
   font-weight: 200;
 }
 .r{
   display: flex;
-  color: black;
+  color: royalblue;
   font-size: 70px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: math;
   background-color:orange;
+  border: white solid 4px;
   clip-path: polygon(25% -2%, 107% -75%, 170% 130%, -4% 150%);
   font-weight: 200;
   margin-bottom: 45px;
@@ -110,11 +115,12 @@ font-size: 40px;
 }
 .a{
   display: flex;
-  color: black;
+  color:pink;
   font-size: 70px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color:yellowgreen;
-  clip-path: polygon(20% 0%, 150% 20%, 170% 130%, 0% 150%);
+  border: white solid 3px;
+  clip-path: polygon(20% 3%, 150% 20%, 170% 130%, 0% 150%);
   font-weight: 200;
 }
 

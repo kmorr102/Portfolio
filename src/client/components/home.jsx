@@ -6,8 +6,8 @@ function Home(){
     
 return(
     <div className='home-container'>
+       <a>My name is</a>
         <div id='name-container'>
-        <a>My name is</a>
         <a className='k'>K</a>
         <a className='e'>e</a>
         <a className='n'>n</a>
