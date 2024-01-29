@@ -1,5 +1,5 @@
 import React from 'react';
-import myResume from '/Users/kendramorris/Desktop/Portfolio/Portfolio/src/client/assets/resume .pdf'
+import myResume from '/src/client/assets/resume-2024.pdf'
 
 
 function Resume(){
@@ -8,7 +8,7 @@ function Resume(){
     <div>
         <iframe className='resume'
          src={myResume}
-         style={{ frameBorder:'0', width: '100%', height: '1000px', border: 'none' }}
+         style={{ width: '100%', height: '500px', border: 'none' }}
          >
         </iframe>
     
