@@ -7,33 +7,47 @@ import Resume from './components/resume';
 import Work from './components/work';
 import Video from './components/Video';
 
-import Button from '@mui/material/Button';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import EmailIcon from '@mui/icons-material/Email';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
+// import GitHubIcon from '@mui/icons-material/GitHub';
+// import EmailIcon from '@mui/icons-material/Email';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function App(){
-    const navigate= useNavigate()
+    const navtoLinkedIn=() =>{
+        window.location.href="https://www.linkedin.com/in/kendra-morris/" 
+    }
+    const navtoEmail=() =>{
+        window.location.href="mailto:kendranmorris@gmail.com" 
+    }
+    const navtoGitHub=() =>{
+        window.location.href="https://github.com/kmorr102" 
+    }
 return(
-    
     <div id="container">
-        {/* <div id='homebar'>
-        <Link className='homelink' to="/"> Kendra Morris </Link>  
-        </div>   */}
-       
-        <div id="navbar">
+        
+       <div id="navbar">
             <Link className='link' to="/">Home</Link>
             {/* <Link className='link' to="/About">About Me</Link> */}
             <Link className='link' to="/Work">My Work</Link>
             <Link className='link' to="/Resume/pdf">Resume</Link>
             {/* <Link className='link' to="/Contact">Contact Me</Link> */}
-      
         </div>
 
         <div id='topbar'></div>
   
        
-    
+        {/* <footer className='footer'>
+            Contact Info
+        <button onClick={navtoGitHub} className="icon-button">
+            <div> <GitHubIcon sx={{ marginRight: "4px", color: 'white' }} /></div>
+        </button>
+        <button onClick={navtoEmail} className="icon-button">
+            <div> <EmailIcon sx={{ marginRight: "4px", color: 'white' }} /></div>
+        </button>
+        <button onClick={navtoLinkedIn} className="icon-button">
+            <div> <LinkedInIcon sx={{ marginRight: "4px", color: 'white' }} /></div>
+        </button>
+        </footer> */}
         <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/About" element={<About/>} />
@@ -41,28 +55,9 @@ return(
             <Route path="/Work" element={<Work/>}/>
             <Route path="/Resume/pdf" element={<Resume/>}/>
             <Route path="/Video" element={<Video/>}/>
-
         </Routes>
-       <div id='bottombar'>
-       <footer className='footer'>Contact Info
-       <Button
-        variant = "text"
-        component={Link} to={'https://github.com/kmorr102'}>
-        <GitHubIcon sx={{marginRight: "4px", color: 'white'}} ></GitHubIcon> 
-      </Button>
-      <Button
-        variant = "text"
-        component={Link} to={"mailto:kendranmorris@gmail.com?"}>
-        <EmailIcon sx={{marginRight: "4px", color:'white'}} ></EmailIcon> 
-      </Button>
-      <Button
-        variant = "text"
-        component={Link} to={'https://www.linkedin.com/in/kendra-morris/'}>
-        <LinkedInIcon sx={{marginRight: "4px", color:'white'}} ></LinkedInIcon> 
-      </Button>
-      </footer>
-      </div>
-    </div>
+
+</div>
 )
 }
 export default App;

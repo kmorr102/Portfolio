@@ -189,6 +189,15 @@ a {
   padding: 2em;
 }
 
+.icon-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: inherit;
+  color: inherit;
+}
+
 button {
   display: flex;
   border-radius: 25px;
