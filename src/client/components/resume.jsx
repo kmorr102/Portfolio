@@ -1,9 +1,9 @@
 import React from 'react';
-import myResume from '/src/client/assets/resume-2024.pdf'
+import myResume from '/src/client/assets/resume.pdf'
 
 
 function Resume(){
-    const resumeUrl= '/src/client/assets/resume-2024.pdf'
+    const resumeUrl= '/src/client/assets/resume.pdf'
     return(
     <div>
         <iframe className='resume'
