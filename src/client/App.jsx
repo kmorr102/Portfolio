@@ -7,6 +7,10 @@ import Resume from './components/resume';
 import Work from './components/work';
 import Video from './components/Video';
 
+import Button from '@mui/material/Button';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function App(){
     const navigate= useNavigate()
@@ -27,6 +31,7 @@ return(
         </div>
 
         <div id='topbar'></div>
+  
        
     
         <Routes>
@@ -39,6 +44,23 @@ return(
 
         </Routes>
        <div id='bottombar'></div>
+       <footer className='footer'>Contact Info
+       <Button
+        variant = "text"
+        component={Link} to={'https://github.com/kmorr102'}>
+        <GitHubIcon sx={{marginRight: "4px", color: 'white'}} ></GitHubIcon> 
+      </Button>
+      <Button
+        variant = "text"
+        component={Link} to={"mailto:kendranmorris@gmail.com?"}>
+        <EmailIcon sx={{marginRight: "4px", color:'white'}} ></EmailIcon> 
+      </Button>
+      <Button
+        variant = "text"
+        component={Link} to={'https://www.linkedin.com/in/kendra-morris/'}>
+        <LinkedInIcon sx={{marginRight: "4px", color:'white'}} ></LinkedInIcon> 
+      </Button>
+      </footer>
     </div>
 )
 }
