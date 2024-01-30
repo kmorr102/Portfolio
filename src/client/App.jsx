@@ -43,7 +43,7 @@ return(
             <Route path="/Video" element={<Video/>}/>
 
         </Routes>
-       <div id='bottombar'></div>
+       <div id='bottombar'>
        <footer className='footer'>Contact Info
        <Button
         variant = "text"
@@ -61,6 +61,7 @@ return(
         <LinkedInIcon sx={{marginRight: "4px", color:'white'}} ></LinkedInIcon> 
       </Button>
       </footer>
+      </div>
     </div>
 )
 }
