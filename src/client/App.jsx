@@ -8,9 +8,10 @@ import Work from './components/work';
 import Video from './components/Video';
 
 
-// import GitHubIcon from '@mui/icons-material/GitHub';
-// import EmailIcon from '@mui/icons-material/Email';
-// import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import CssBaseline from '@mui/material/CssBaseline';
 
 function App(){
     const navtoLinkedIn=() =>{
@@ -24,30 +25,32 @@ function App(){
     }
 return(
     <div id="container">
-        
-       <div id="navbar">
+    
+        <nav id="navbar">
             <Link className='link' to="/">Home</Link>
             {/* <Link className='link' to="/About">About Me</Link> */}
             <Link className='link' to="/Work">My Work</Link>
             <Link className='link' to="/Resume/pdf">Resume</Link>
             {/* <Link className='link' to="/Contact">Contact Me</Link> */}
-        </div>
-
-        <div id='topbar'></div>
+        </nav>
+      
+        <header id='topbar'></header>
   
-       
-        {/* <footer className='footer'>
+      
+        <footer className='footer'>
             Contact Info
-        <button onClick={navtoGitHub} className="icon-button">
-            <div> <GitHubIcon sx={{ marginRight: "4px", color: 'white' }} /></div>
-        </button>
-        <button onClick={navtoEmail} className="icon-button">
-            <div> <EmailIcon sx={{ marginRight: "4px", color: 'white' }} /></div>
-        </button>
-        <button onClick={navtoLinkedIn} className="icon-button">
-            <div> <LinkedInIcon sx={{ marginRight: "4px", color: 'white' }} /></div>
-        </button>
-        </footer> */}
+
+        <div role='button' onClick={navtoGitHub} className="icon-button">
+            <GitHubIcon sx={{ marginRight: "4px", color: 'white' }} />
+        </div>
+        <div role='button' onClick={navtoEmail} className="icon-button">
+            <EmailIcon sx={{ marginRight: "4px", color: 'white' }} />
+        </div>
+        <div role='button' onClick={navtoLinkedIn} className="icon-button">
+            <LinkedInIcon sx={{ marginRight: "4px", color: 'white' }} />
+        </div>
+        </footer>
+        
         <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/About" element={<About/>} />
